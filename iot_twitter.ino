@@ -12,8 +12,8 @@
 
 int button = D7;
 int status= 1;
-String APIkey_ThingTweet = "II4IHBJPOU20TAW8";	// durch Ihren Thingtweet-API-Key ersetzen
-String APIkey_ThingSpeak = "2S7PDUM33WCSLJAM";	// durch Ihren Thingtweet-API-Key ersetzen
+String APIkey_ThingTweet = "II4IHBJPOUWJGF77";	// durch Ihren Thingtweet-API-Key ersetzen
+String APIkey_ThingSpeak = "123456733WCSLJAM";	// durch Ihren Thingtweet-API-Key ersetzen
 HTTPClient https;
 
 void setup() { 
@@ -22,7 +22,7 @@ void setup() {
 	digitalWrite(LED_BUILTIN, HIGH);      
 	pinMode(D7, INPUT);    
 	digitalWrite(D7, HIGH);      
-	WiFi.begin("FRITZ!Box 6490 Cable", "88462590539281722797");
+	WiFi.begin("FRITZ!Box 6490 Cable", "1234567890123456"); // Durch Ihre WLAN-Zugangsdaten ersetzen
 	delay(1000);
 	Serial.println("");
 	Serial.print("Connecting...");
