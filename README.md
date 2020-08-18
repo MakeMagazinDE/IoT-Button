@@ -14,7 +14,7 @@ Ein Druck auf unseren IoT-Button und es wird eine voreingestellte Nachricht an d
 
 Sourcen für Arduino-IDE mit ESP8266-Erweiterung: 
 
-iot_twitter.ino
+iot_twitter.ino (bitte Hinweise im Quellcode beachten) 
 
 sowie Originaldateien des Autors mit einfachen Beispielen
 
