@@ -6,7 +6,7 @@ void setup()
     Serial.begin(115200);
     pinMode(LED, OUTPUT);    
     digitalWrite(LED, HIGH);      
-    WiFi.begin("EasyBox-662577", "@Larinet2015");
+    WiFi.begin("WLAN", "Passwort");
     while (WiFi.status() != WL_CONNECTED)
     {
         delay(1000);
